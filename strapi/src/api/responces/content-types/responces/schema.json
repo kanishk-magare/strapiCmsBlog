@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "responce",
+  "info": {
+    "singularName": "responces",
+    "pluralName": "responce",
+    "displayName": "Responces"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
